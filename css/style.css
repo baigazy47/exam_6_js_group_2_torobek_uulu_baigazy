@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background: #fff;
+    line-height: 1.3;
+}
+.container {
+    min-width: 302px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.user_editor {
+    width: 100%;
+}
+.user-editor_main {
+    padding: 10px 5px;
+    overflow: hidden;
+}
+.user_editor_name {
+    font-size: 45px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 70px 0 0;
+}
+.user_editor_link {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    background-image: url(../img/new-file.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding: 20px;
+}
+.user_editor_add {
+    display: inline-block;
+    float: right;
+    padding: 10px 15px;
+    background: #56bf9e;
+    border: 1px solid #111715;
+    border-radius: 3px;
+}
